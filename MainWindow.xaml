@@ -13,11 +13,11 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel>
-            <ComboBox x:Name="cbxDatumok" Margin="1 1 0 0" Width="100" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="cbxDatumok_SelectionChanged"/>
+            <ComboBox x:Name="cbxDatumok" Margin="1 1 0 0" Width="150" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="cbxDatumok_SelectionChanged"/>
         </StackPanel>
 
         <StackPanel Grid.Column="1">
-            <ListBox x:Name="lbxLista"  Margin="1 1 0 0" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="lbxLista_SelectionChanged"/>
+            <ListBox x:Name="lbxLista"  Margin="1 1 0 0" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="lbxLista_SelectionChanged"/>
         </StackPanel>
         
         
